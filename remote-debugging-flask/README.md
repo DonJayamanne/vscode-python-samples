@@ -34,7 +34,7 @@
  ```
 
 ## Setup your local environment
-### Step 1: Confirme flask is running
+### Step 1: Confirm flask is running
 * Identify the IP Address of your remote environment.
 * Open a browser window pointing to the Url that Flask is listening on (replacing the IP Address in the url)
 * Confirm the output on the browser window is `Hello World!`
@@ -55,4 +55,4 @@
 * Go into the debugger menu and select `Python: Attach` and press the green arrow icon 
 * Open the `app.py` file and add a break point to the line `return "Hello World!"`
 * Refresh your browser window.
-* The breakpoint should now hit.
+* The debugger should hit the breakpoint.

@@ -12,9 +12,7 @@
             "remoteRoot": "${workspaceFolder}",
             "port": 3000,
             "secret": "my_secret",
-            "host": "localhost",
-            "diagnosticLogging": true,
-			"logToFile": true,
+            "host": "localhost"
         },
         {
             "name": "Python: Terminal (integrated)",

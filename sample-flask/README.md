@@ -22,14 +22,14 @@
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
  ```
 
-### Step 4: Confirme flask is running
+### Step 4: Confirm flask is running
 * Open a browser window pointing to the Url that Flask is listening on
 * Confirm the output on the browser window is `Hello World!`
 
 ### Step 5: Debug Flask
 * Open the `app.py` file and add a break point to the line `return "Hello World!"`
 * Refresh your browser window.
-* The breakpoint should now hit.
+* The debugger should hit the breakpoint.
 
 ### Troubleshooting
 * Confirm flask is running in the terminal window.
