@@ -9,7 +9,7 @@
             "type": "python",
             "request": "attach",
             "localRoot": "${workspaceFolder}",
-            "remoteRoot": "src/",
+            "remoteRoot": "/src/",
             "port": 3000,
             "secret": "my_secret",
             "host": "localhost"
