@@ -6,7 +6,7 @@ This is a sample Django application created using [tutorial](https://docs.django
 
 ## Setup your remote environment
 ### Step 1: Build docker image and run it
-* Open a temrinal window
+* Open a terminal window
 * Type the following command in the terminal window
 `docker build -t remote-debugging-docker-django .`
 * Type the following command in the terminal window
