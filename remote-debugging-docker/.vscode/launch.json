@@ -5,14 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Attach",
+            "name": "Attach (Remote Debug)",
             "type": "python",
             "request": "attach",
-            "localRoot": "${workspaceFolder}",
-            "remoteRoot": "src/",
             "port": 3000,
-            "secret": "my_secret",
-            "host": "localhost"
+            "host": "localhost",
+            "pathMappings": [
+                {"localRoot": "${workspaceFolder}", "remoteRoot": "src/"}
+            ]
         }
     ]
 }
