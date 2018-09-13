@@ -11,8 +11,9 @@
             "port": 3000,
             "host": "localhost",
             "pathMappings": [
-                {"localRoot": "${workspaceFolder}", "remoteRoot": "src/"}
-            ]
+                {"localRoot": "${workspaceFolder}", "remoteRoot": "/src/"}
+            ],
+            "redirectOutput": false
         }
     ]
 }
