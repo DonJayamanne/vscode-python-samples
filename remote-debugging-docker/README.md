@@ -7,6 +7,15 @@
 `docker build -t remote-debugging-docker .`
 * Type the following command in the terminal window
 `docker run -it --rm -p 3000:3000 remote-debugging-docker`
+or share dir
+```bash
+docker run -it --rm \
+    -p 3000:3000 \
+    -v ${PWD}:/root/work \
+    -w /root/work \
+    remote-debugging-docker \
+    python sample.py
+```
 * Confirm the following is displayed in the terminal window
 `Waiting to attach`
 

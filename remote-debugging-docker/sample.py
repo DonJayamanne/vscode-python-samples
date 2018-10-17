@@ -11,4 +11,5 @@ ptvsd.wait_for_attach()
 time.sleep(2)
 
 print("attached")
+print(os.getcwd())
 print("end")
