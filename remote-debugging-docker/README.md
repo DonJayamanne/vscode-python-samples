@@ -6,7 +6,16 @@
 * Type the following command in the terminal window
 `docker build -t remote-debugging-docker .`
 * Type the following command in the terminal window
-`docker run -it -p 3000:3000 remote-debugging-docker`
+`docker run -it --rm -p 3000:3000 remote-debugging-docker`
+or share dir
+```bash
+docker run -it --rm \
+    -p 3000:3000 \
+    -v ${PWD}:/root/work \
+    -w /root/work \
+    remote-debugging-docker \
+    python sample.py
+```
 * Confirm the following is displayed in the terminal window
 `Waiting to attach`
 
@@ -18,5 +27,5 @@
 ### Step 2: Attach the debugger
 * Open `sample.py`
 * Add a breakpoint to the line `print("attached")`
-* Go into the debugger menu and select `Python: Attach` and press the green arrow icon 
+* Go into the debugger menu and select `Python: Attach` and press the green arrow icon
 * Wait for around 2 seconds and the debugger should hit at the breakpoint

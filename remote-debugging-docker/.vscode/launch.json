@@ -9,9 +9,9 @@
             "type": "python",
             "request": "attach",
             "port": 3000,
-            "host": "localhost",
+            "host": "dngstation.slis.tsukuba.ac.jp",
             "pathMappings": [
-                {"localRoot": "${workspaceFolder}", "remoteRoot": "/src/"}
+                {"localRoot": "${workspaceFolder}", "remoteRoot": "/root/work/"}
             ],
             "redirectOutput": false
         }
