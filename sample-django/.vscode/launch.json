@@ -21,10 +21,7 @@
             "envFile": "${workspaceFolder}/.env",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
-            "debugOptions": [
-                "RedirectOutput",
-                "DjangoDebugging"
-            ]
+            "django": true
         }
     ]
 }
