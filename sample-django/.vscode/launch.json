@@ -8,23 +8,12 @@
             "name": "Python: Django",
             "type": "python",
             "request": "launch",
-            "stopOnEntry": false,
-            "pythonPath": "${config:python.pythonPath}",
             "program": "${workspaceFolder}/manage.py",
-            "cwd": "${workspaceFolder}",
             "args": [
                 "runserver",
-                "--noreload",
-                "--nothreading"
+                "--noreload"
             ],
-            "env": {},
-            "envFile": "${workspaceFolder}/.env",
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen",
-            "debugOptions": [
-                "RedirectOutput",
-                "DjangoDebugging"
-            ]
+            "django": true
         }
     ]
 }
