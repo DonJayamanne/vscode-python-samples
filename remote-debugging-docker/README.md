@@ -2,7 +2,7 @@
 
 ## Setup your remote environment
 ### Step 1: Build docker image and run it
-* Open a temrinal window
+* Open a terminal window
 * Type the following command in the terminal window
 `docker build -t remote-debugging-docker .`
 * Type the following command in the terminal window
