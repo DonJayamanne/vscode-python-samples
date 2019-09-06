@@ -13,7 +13,9 @@
             "pathMappings": [
                 {"localRoot": "${workspaceFolder}", "remoteRoot": "/src/"}
             ],
-            "redirectOutput": false
+            "redirectOutput": false,
+            "preLaunchTask": "Start Debug",
+            "postDebugTask": "End Debug"
         }
     ]
 }

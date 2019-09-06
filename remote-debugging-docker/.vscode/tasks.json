@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Debug",
+            "command": "./debug.sh start && sleep 3",
+            "type": "shell"
+        },
+        {
+            "label": "End Debug",
+            "type": "shell",
+            "command": "./debug.sh stop"
+        }
+    ]
+}
