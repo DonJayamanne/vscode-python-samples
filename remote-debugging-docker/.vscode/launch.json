@@ -5,6 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Build and Attach (Remote Debug)",
+            "type": "python",
+            "request": "attach",
+            "port": 3000,
+            "host": "localhost",
+            "pathMappings": [
+                {"localRoot": "${workspaceFolder}", "remoteRoot": "/src/"}
+            ],
+            "redirectOutput": false,
+            "preLaunchTask": "Start Debug",
+            "postDebugTask": "End Debug"
+        },
+        {
             "name": "Attach (Remote Debug)",
             "type": "python",
             "request": "attach",

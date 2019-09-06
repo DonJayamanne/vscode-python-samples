@@ -20,3 +20,9 @@
 * Add a breakpoint to the line `print("attached")`
 * Go into the debugger menu and select `Python: Attach` and press the green arrow icon 
 * Wait for around 2 seconds and the debugger should hit at the breakpoint
+
+## Using automatic build of docker container
+It's the above steps combined in one.
+* Add a breakpoint to the line `print("attached")`
+* Go into the debugger menu and select `Python: Build and Attach` and press the green arrow icon 
+* Wait for a little time and the debugger should hit at the breakpoint
