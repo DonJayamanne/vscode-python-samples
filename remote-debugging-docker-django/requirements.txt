@@ -1,2 +1,2 @@
-Django==2.0.2
+Django==2.0.12
 ptvsd==3.0.0
